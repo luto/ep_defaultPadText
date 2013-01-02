@@ -1,13 +1,13 @@
 {
-	"name": "ep_defaultPadText",
-	"version": "0.0.1",
-	"description": "",
-	"author": "luto <m@luto.at>",
-	"contributors": [],
-	"dependencies": { "strftime" : "" },
-	"engines": { "node": ">= 0.6.0" },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/mluto/ep_defaultPadText.git"
-    }
+  "name": "ep_defaultPadText",
+  "version": "0.0.1",
+  "description": "Choose different defaultPadTexts for different prefixes. SEE README FOR NEEDED SETTINGS.",
+  "author": "luto <m@luto.at>",
+  "contributors": [],
+  "dependencies": { "strftime" : "" },
+  "engines": { "node": ">= 0.6.0" },
+  "repository": {
+                  "type": "git",
+                  "url": "https://github.com/mluto/ep_defaultPadText.git"
+                }
 }

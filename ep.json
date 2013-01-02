@@ -1,11 +1,11 @@
 {
-    "parts": [
-        {
-            "name": "ep_defaultPadText",
-            "hooks": {
-                "padCreate" : "ep_defaultPadText/index:padCreate"
-            }
-        }
-    ]
+  "parts": [
+             {
+               "name": "ep_defaultPadText",
+               "hooks": {
+                          "padCreate" : "ep_defaultPadText/index:padCreate"
+                        }
+             }
+           ]
 }
 
