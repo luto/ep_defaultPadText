@@ -1,12 +1,13 @@
 var settings = require('ep_etherpad-lite/node/utils/Settings');
+var strftime = require('strftime');
 
 /*
 "ep_defaultPadText" : {
-                   "defaultText" : {
-                                     "prefix" : "mm",
-                                     "text"   : "asdsad numerb:$num$ date:$date$"
-                                   }
-                 }
+                        "mm" : {
+				               "text"   : "asdsad numerb:$num$ date:$date:%y$"
+                               }
+                      },
+
 */
 
 exports.padCreate = function(hook, context)
@@ -17,9 +18,9 @@ exports.padCreate = function(hook, context)
 	{
 		if(id.indexOf(show) == 0)
 		{
-			console.log("It is: " + show.prefix)
+			var number = id.substring(show.length);
 			var text = settings.ep_defaultPadText[show].text;
-			text = prepareText(text, id);
+			text = prepareText(text, number);
 			context.pad.setText(text);
 		}
 	}
@@ -27,6 +28,12 @@ exports.padCreate = function(hook, context)
 
 function prepareText(text, number)
 {
-	// TODO
+	console.log("prepare: " + text  + "   " + number);
+	text = text.replace("$num$", number);
+	
+	var dateTokenRegex = /\$date:([^$]+)\$/;
+	var dateToken = dateTokenRegex.exec(text);
+	text = text.replace(dateToken[0], strftime(dateToken[1]));
+	
 	return text;
 }

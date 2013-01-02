@@ -4,7 +4,7 @@
 	"description": "",
 	"author": "luto <m@luto.at>",
 	"contributors": [],
-	"dependencies": {},
+	"dependencies": { "strftime" : "" },
 	"engines": { "node": ">= 0.6.0" },
     "repository": {
         "type": "git",
