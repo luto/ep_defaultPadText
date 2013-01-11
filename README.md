@@ -10,13 +10,13 @@ Date and Time: April 28, 2011 18:21:08
 ## Conclusions
 ## Roadmap for next week
 ```
-Using this ep_defaultPadText you don't have to copy&paste that into your pad yourself, you just choose an prefix for meetings, for example `m_`, paste the template int your `settings.json` and you're good to go.
+Using this ep_defaultPadText you don't have to copy&paste that into your pad yourself, you just choose an prefix for meetings, for example `m_`, paste the template into your `settings.json` and you're good to go.
 
 ## Settings
 
 ### Format
 You need to add the following section to your `settings.json`. You can repeat the inner
-sections as often as you want. The name of the inner rections represents the prefix,
+sections as often as you want. The name of the inner sections represents the prefix,
 the `text`-attribute is the text that will be set, it can contain placeholders, which
 will be explained in the next paragraph.
 
