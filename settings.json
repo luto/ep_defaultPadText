@@ -1,0 +1,29 @@
+"ep_defaultPadText" : {
+  "mm": {
+    text: "Mobile Macs $num$\nSendung vom: $date:d.m.Y$\nMit Tim (@timpritlove), Hukl (@hukl), Max (@343max), Denis (@denis2342), roddi\nStream: <http://streams.xenim.de/mobile_macs.mp3>\nChat: <http://webchat.freenode.net/?channels=%23mobilemacs>\n\nZusammentragen von:\n\n"
+   },
+  "nsfw": {
+    text: "Not-Safe-For-Work $num$\nSendung vom: $date:d.m.Y$Mit Holger Klein (@holgi) und Tim Pritlove (@timpritlove)\nStream: <http://streams.xenim.de/nsfw.mp3>\nChat: <http://webchat.freenode.net/?channels=%23nsfw>\n\nZusammengetragen von:\n\n"
+   },
+  "wrint": {
+    text: "Die Wrintheit $num$\nSendung vom: $date:d.m.Y$\nMit Holger Klein (@holgi) und Nicolas Semak (@nsemak)\nStream: <http://streams.xenim.de/wrint.mp3>\nChat: <http://webchat.freenode.net/?channels=%23kleitung>\n\nZusammengetragen von:\n\n"
+   },
+  "ra": {
+    text: "Realitätsabgleich $num$\nSendung vom: $date:d.m.Y$Mit Holger Klein (@holgi) und Tobias Baier (@tobybaier)\nStream: <http://streams.xenim.de/wrint.mp3>\nChat: <http://webchat.freenode.net/?channels=%23kleitung>\n\nZusammengetragen von:\n\n"
+   },
+  "ep": {
+    text: "Einschlafen-Podcast $num$\nSendung vom: $date:d.m.Y$Mit Tobias Baier (@tobybaier)\nStream: <http://streams.xenim.de/einschlafen.mp3>\nChat: <http://webchat.freenode.net/?channels=%23einschlafen>\n\nZusammengetragen von:\n\n"
+   },
+  "bm": {
+    text: "Blue Moon vom $date:d.m.Y$\nTel.-Nr.: Tel: 0331 70 97 110, ab 23 Uhr: 0800 80 55555\nMit Holger Klein (@holgi) \n\nThema:   BITTE AUSFÜLLEN!\nSendungsseiten:\n- Blue Moon <http://www.fritz.de/programm/blue_moon.html>\n- Lateline <http://blogs.hr-online.de/lateline/>\nStream: <http://fritz.de/livemp3>\nChat: <http://Geheimch.at/>\n\nZusammengetragen von:\n\n"
+   },
+  "ll": {
+    text: "LateLine vom $date:d.m.Y$\nTel.-Nr.: Tel: 0331 70 97 110, ab 23 Uhr: 0800 80 55555\nMit Holger Klein (@holgi) \n\nThema:   BITTE AUSFÜLLEN!\nSendungsseite:- Lateline <http://blogs.hr-online.de/lateline/>\nStream: <http://mp3-live.dasding.de/dasding_s.m3u>\nChat: <http://Geheimch.at/>\n\nZusammengetragen von:\n\n"
+   },
+  "cr": {
+    text: "Chao Radio $num$\nTel.-Nr.: Tel: 0331 70 97 110\nMit Holger Klein (@holgi) und CCC  BITTE AUSFÜLLEN!\n\nThema:   BITTE AUSFÜLLEN!\nSendungsseite: <http://blog.chaosradio.ccc.de/>\nStream: <http://fritz.de/livemp3>\nChat: <http://webchat.freenode.net/?channels=%23chaosradio>\n\nZusammengetragen von:\n\n"
+   },
+  "jc": {
+    text: "Jobscast $num$\nSendung vom: $date:d.m.Y$\nMit Daniel Autenrieth (@dautenrieth) und   BITTE AUSFÜLLEN!\nSendungsseite: <http://jobscast.de/>\nStream: <http://streams.xenim.de/jobscast.mp3>\nChat: <http://webchat.freenode.net/?channels=%23jobscast>\n\nZusammengetragen von:\n\n"
+   }
+}
