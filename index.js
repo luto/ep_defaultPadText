@@ -5,7 +5,7 @@ exports.padCreate = function(hook, context)
 {
   var id = context.pad.id;
   
-  for(show in settings.ep_defaultPadText)
+  for(var show in settings.ep_defaultPadText)
   {
     if(id.indexOf(show) == 0)
     {
@@ -19,7 +19,6 @@ exports.padCreate = function(hook, context)
 
 function prepareText(text, number)
 {
-  console.log("prepare: " + text  + "   " + number);
   text = text.replace("$num$", number);
   
   // Extract the $date$-placeholder out of our template
