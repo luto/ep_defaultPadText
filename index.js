@@ -19,7 +19,7 @@ exports.padCreate = function(hook, context)
 
 function prepareText(text, number)
 {
-  text = text.replace("$num$", number);
+  text = text.replace("$num$", number) || text;
   
   // Extract the $date$-placeholder out of our template
   var dateTokenRegex = /\$date:([^$]+)\$/;
