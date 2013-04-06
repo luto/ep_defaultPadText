@@ -25,7 +25,7 @@ function prepareText(text, number)
   var dateTokenRegex = /\$date:([^$]+)\$/;
   var dateToken = dateTokenRegex.exec(text);
   // replace the full placeholder by the current date formatted using the given format
-  text = text.replace(dateToken[0], strftime(dateToken[1]));
-  
+  if(dateToken) text = text.replace(dateToken[0], strftime(dateToken[1]));
+
   return text;
 }
