@@ -18,7 +18,8 @@ Using this ep_defaultPadText you don't have to copy&paste that into your pad you
 You need to add the following section to your `settings.json`. You can repeat the inner
 sections as often as you want. The name of the inner sections represents the prefix,
 the `text`-attribute is the text that will be set, it can contain placeholders, which
-will be explained in the next paragraph.
+will be explained in the next paragraph. A text with the name '*' will apply for all new
+pads whose name does not fit any of the other texts, this is optional.
 
 ```JSON
 "ep_defaultPadText" : {
@@ -27,7 +28,10 @@ will be explained in the next paragraph.
                                },
                         "wr" : {
   			                     "text" : "WRINT-Time! Number $num$ happening in your home-town at $date:%H:%M:%S$"
-                               }
+                               },
+                        "*" : {
+  			                    "text" : "I'm a pad that was created at $date:%H:%M:%S$ but has no special template."
+                              },
                       }
 ```
 
