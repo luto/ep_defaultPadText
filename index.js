@@ -13,7 +13,7 @@ exports.padCreate = function(hook, context)
     {
       var number = id.substring(show.length);
       var text = settings.ep_defaultPadText[show].text;
-      text = prepareText(text, number);
+      text = prepareText(text, id, number);
       context.pad.setText(text);
       found = true;
     }
@@ -26,15 +26,16 @@ exports.padCreate = function(hook, context)
     if(templ)
     {
       var text = templ.text;
-      text = prepareText(text, number);
+      text = prepareText(text, id, number);
       context.pad.setText(text);
     }
   }
 }
 
-function prepareText(text, number)
+function prepareText(text, id, number)
 {
   text = text.replace("$num$", number);
+  text = text.replace("$padId$", id);
   
   // Extract the $date$-placeholder out of our template
   var dateTokenRegex = /\$date:([^$]+)\$/;

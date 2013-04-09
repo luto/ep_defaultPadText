@@ -36,5 +36,6 @@ pads whose name does not fit any of the other texts, this is optional.
 ```
 
 ### Placeholders
-  * `$num$`, number after the given prefix; For example: if the Pad-ID is `mm42`, `$num$` will be `42`
+  * `$num$`, number after the given prefix; For example: if the Pad-ID is `mm42`, `$num$` will be `42`, not available in `*`-text
+  * `$padId$`, the full pad-id
   * `$date:format$`, the date will be formatted by [strftime](https://github.com/samsonjs/strftime)
