@@ -1,0 +1,6 @@
+language: node_js
+deploy:
+  api_key:
+    secure: C6Gu6LX2cIft15upAm1KUwpYMBCtueKy8T4y8E7cYJqkoypT9eGjhO8D48UNibvgQ7mdrIMowclNL1NQchNZihRUcUQIRI/FV96cQwYuyxmdZ+4L+uZU4T9kkcDhS+GSJ3IdZGMOafH89b7TNhlSM9u9DkaKsaimpYv9EKrIBcA=
+  provider: npm
+  email: john@mclear.co.uk
