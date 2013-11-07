@@ -3,7 +3,7 @@
              {
                "name": "ep_defaultPadText",
                "hooks": {
-                          "padCreate" : "ep_defaultPadText/index:padCreate"
+                          "padCreate" : "ep_default-pad-text/index:padCreate"
                         }
              }
            ]

@@ -1,6 +1,6 @@
 {
-  "name": "ep_defaultPadText",
-  "version": "0.0.1",
+  "name": "ep_default-pad-text",
+  "version": "0.0.3",
   "description": "Choose different defaultPadTexts for different prefixes. SEE README FOR NEEDED SETTINGS.",
   "author": "luto <m@luto.at>",
   "contributors": [],
