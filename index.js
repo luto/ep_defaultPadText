@@ -22,11 +22,18 @@ exports.padCreate = function(hook, context)
   // no template was found, see if there is a general one, '*'
   if(!found)
   {
-    var templ = settings.ep_defaultPadText['*'];
-    if(templ)
-    {
-      var text = templ.text;
-      text = prepareText(text, id, number);
+    if(settings.ep_defaultPadText){
+      var templ = settings.ep_defaultPadText['*'];
+      if(templ)
+      {
+        var text = templ.text;
+        text = prepareText(text, id, number);
+        context.pad.setText(text);
+      }
+    }
+    else{  // no settings..  lazy admin!
+      var text = "No template found for ep_defaultPadText, please provide one!";
+      console.warn(text);
       context.pad.setText(text);
     }
   }
