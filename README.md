@@ -1,5 +1,10 @@
 # ep_defaultPadText
 
+## Installing
+use the /admin/plugins web interface
+OR
+```cd node_modules && git clone https://github.com/luto/ep_defaultPadText.git ep_default-pad-text```
+
 ## Function
 ep_defaultPadText let's you choose a special default text for each pad-prefix. This can be be used for pads that all share the same header, for example collaborative meeting-notes could all look like like this:
 ```
