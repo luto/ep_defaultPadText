@@ -5,7 +5,12 @@ exports.padCreate = function(hook, context)
 {
   var id = context.pad.id;
   var found = false;
-  
+
+  // abort if ID is undefined
+  if(!id) {
+    return;
+  }
+
   // check all specific templates
   for(var show in settings.ep_defaultPadText)
   {
